@@ -28,4 +28,7 @@ body{
         content: " + ";
         visibility: visible;
     }
+    #redes-sociales{
+        flex-direction: column;
+    }
 }
