@@ -1,0 +1,31 @@
+div[id]{
+    scroll-margin-top: 70px;
+}
+
+.navbar{
+    background-color: rgb(44,44,44);
+}
+body{
+    background-color: rgb(23,23,23);
+}
+#color-div{
+    background-color: rgb(44,44,44);
+}
+.btn{
+    background-color: rgb(44, 144, 239);
+    border: none;
+}
+
+@media screen and (max-width:700px){
+    #text-movil{
+        font-size: 0.7rem;
+    }
+    #text-none{
+        visibility: hidden;
+        height: 25px;
+    }
+    #text-none:before{
+        content: " + ";
+        visibility: visible;
+    }
+}
